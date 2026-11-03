@@ -1,0 +1,9 @@
+case_id,time_h,fuel_temp_c,fuel_temp_k,description,source,include_in_envelope,model_temp_k,error_k,relative_error_pct
+startup_500C,0.63,500,773.15,Core reaches 500 C; sodium heat pipes begin to operate,"Poston et al. (2020), Sec. IV.B",0,700.2297609780603,-72.92023902193966,-9.431577187083965
+quasi_steady_1p7h,1.7,800,1073.15,"Quasi-steady state after startup, 2.9 kW fission","Poston et al. (2020), Sec. V.A",1,995.9224340867128,-77.22756591328732,-7.196344025838636
+nominal_8h,8.0,800,1073.15,"Nominal steady state, 2.75 kW fission, 295 W per heat pipe","Poston et al. (2020), Sec. VI",1,1081.8027126670463,8.652712667046217,0.806291074597793
+loss_cooling_20p5h,20.5,819,1092.15,Converters stalled and simulator flow reduced; passive heat rejection only,"Poston et al. (2020), Sec. X.A",1,1091.0769482888807,-1.073051711119433,-0.09825131265114069
+stalled_24h,24.0,819,1092.15,Converters restarted from zero stroke; quasi steady,"Poston et al. (2020), Sec. X.C",1,1136.7987861572722,44.64878615727207,4.088155121299462
+pre_scram_27h,27.0,819,1092.15,All active cooling stopped; quasi steady before scram,"Poston et al. (2020), Sec. X.E",1,1069.0272155598623,-23.12278444013782,-2.117180281109538
+cooldown_31h,31.0,450,723.15,Three hours after scram; heat pipes have shut down,"Poston et al. (2020), Sec. X.G",0,653.7877310202955,-69.36226897970448,-9.591684848192557
+cooldown_87h,87.0,46,319.15,End of the 87-hour cooldown record,"Poston et al. (2020), Sec. X.G",1,333.4615512678446,14.311551267844607,4.484271116354256

@@ -1,0 +1,62 @@
+{
+  "reference": {
+    "n_hp": 19,
+    "d_hp_cm": 3.0,
+    "q_per_hp_kw": 26.31578947368421,
+    "q_max_kw": 48.598634683400896,
+    "margin": 1.846748117969234,
+    "core_diameter_cm": 33.97021466563679,
+    "T_hp_k": 1050.0,
+    "T_block_k": 1259.4143988051255,
+    "T_fuel_max_k": 1369.7974611851118,
+    "T_fuel_mean_k": 1319.2408922925854,
+    "fuel_margin_k": 1153.2025388148882,
+    "fuel_margin_pct": 45.707591708873885,
+    "block_delta_T_k": 209.41439880512544
+  },
+  "in_channel": {
+    "configuration": "V2-A in-channel",
+    "d_hp_cm": 0.6,
+    "q_per_pin_kw": 8.196721311475411,
+    "q_max_kw": 0.6887924916171646,
+    "margin": 0.08403268397729408,
+    "limiting_mode": "capillary",
+    "T_fuel_max_k": 1320.9426148999523,
+    "feasible": false
+  },
+  "screen_3cm": {
+    "n_hp": 19,
+    "d_hp_cm": 3.0,
+    "q_per_hp_kw": 26.31578947368421,
+    "q_max_kw": 7.33819581356736,
+    "margin": 0.2788514409155597,
+    "limiting_mode": "capillary",
+    "hp_mass_total_kg": 24.029830463963478,
+    "core_diameter_cm": 33.97021466563679,
+    "reflector_mass_added_kg": 31.400385044383622,
+    "block_mass_added_kg": 17.73922514039369,
+    "header_mass_kg": 8.0,
+    "total_added_mass_kg": 81.16944064874079,
+    "feasible": false,
+    "notes": "transport margin below 1.5"
+  },
+  "mass": [
+    {
+      "architecture": "Pumped NaK-78",
+      "loop_mass_kg": 90.85,
+      "reactor_mass_kg": 447.12,
+      "total_mass_kg": 537.97,
+      "pump_power_kw_e": 6.0
+    },
+    {
+      "architecture": "Passive Na heat pipe",
+      "loop_mass_kg": 89.28638471361486,
+      "reactor_mass_kg": 447.12,
+      "total_mass_kg": 536.4063847136149,
+      "pump_power_kw_e": 0.0
+    }
+  ],
+  "pumped_loop_mass_kg": 90.85,
+  "heat_pipe_system_mass_kg": 89.28638471361486,
+  "reactor_mass_kg": 447.12
+}

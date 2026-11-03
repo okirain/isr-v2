@@ -1,0 +1,8 @@
+component,mass_kg,basis
+"External piping (SS316, 2 x 3 m)",22.0,"3 m supply + 3 m return, 5 cm OD"
+EM pump and controller,15.0,"6 kW(e) input, 10 % efficiency"
+Primary-to-secondary heat exchanger,20.0,"compact plate-fin, 500 kWth"
+Expansion / accumulator vessel,8.0,"NaK-78, 1 bar cover gas"
+NaK-78 inventory,4.0,"external loop, excluding pin channels"
+"Insulation, supports and instrumentation",10.0,"MLI, brackets, flowmeters"
+Contingency (15 %),11.85,design maturity

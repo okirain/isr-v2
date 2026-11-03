@@ -1,0 +1,6 @@
+component,mass_kg,basis
+Sodium heat pipes (19 x 3.0 cm),24.029830463963478,"Haynes 230 shell, Ni wick, Na inventory"
+Headers and manifold,8.0,collector/condenser interface
+Core-block mass penalty,17.73922514039369,"larger Mo-30Re block, 34 cm core"
+Reflector mass penalty,31.400385044383622,BeO reflector scaled with core diameter
+Contingency (10 %),8.11694406487408,advanced wick

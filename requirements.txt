@@ -1,0 +1,7 @@
+# ISR-V2 reduced-order simulator
+# Python 3.10+ (tested with CPython 3.12)
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.0
+pytest>=8.0

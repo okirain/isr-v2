@@ -1,0 +1,3 @@
+architecture,loop_mass_kg,reactor_mass_kg,total_mass_kg,pump_power_kw_e
+Pumped NaK-78,90.85,447.12,537.97,6.0
+Passive Na heat pipe,89.28638471361486,447.12,536.4063847136149,0.0

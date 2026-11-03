@@ -1,0 +1,45 @@
+{
+  "geometry": {
+    "name": "KRUSTY Haynes-230/Na",
+    "L_total": 1.0,
+    "L_evap": 0.25,
+    "L_adiab": 0.35,
+    "L_cond": 0.4,
+    "r_outer": 0.00635,
+    "t_wall": 0.00089,
+    "t_wick": 0.0005,
+    "r_pore": 1.5e-05,
+    "porosity": 0.7,
+    "wire_diameter": 5e-05,
+    "contact_angle_deg": 0.0,
+    "tilt_deg": 90.0,
+    "k_wall": 20.0,
+    "permeability_override": null
+  },
+  "n_pipes": 8,
+  "envelope": {
+    "set": "quasi-steady envelope",
+    "n_points": 6,
+    "mae_k": 28.172742026117913,
+    "rmse_k": 38.238539848864896,
+    "mape_pct": 3.1317488219751373,
+    "max_ape_pct": 7.196344025838636
+  },
+  "all_points": {
+    "set": "all reported points",
+    "n_points": 8,
+    "mae_k": 38.91487001979395,
+    "rmse_k": 48.60761410991731,
+    "mape_pct": 4.726719370890919,
+    "max_ape_pct": 9.591684848192557
+  },
+  "startup_500c": {
+    "measured_h": 0.63,
+    "model_h": 0.7,
+    "relative_error_pct": 11.111111111111102
+  },
+  "nominal_8h": {
+    "model_k": 1081.8027126670463,
+    "measured_k": 1073.15
+  }
+}
